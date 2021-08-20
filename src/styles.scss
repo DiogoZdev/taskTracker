@@ -1,1 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    font-size: 14px;
+    --c-main:#123;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.container {
+    max-width: 500px;
+    margin:30px auto;
+    min-height: 300px;
+}
+
+.btn {
+    font-size: .8rem;
+    padding:1em 2em;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: ease-in-out 40ms;
+    &:active {
+        transform: scale(.95);
+    }
+}
