@@ -1,6 +1,7 @@
 .task {
     //display:flex;
     //justify-content: space-between;
+    position:relative;
     width:100%;
     padding:1rem;
     background-color: #f3f3f3;
@@ -17,4 +18,14 @@
     &:hover {
         background-color: #eef;
     }
+}
+
+.icon-close {
+    position: absolute;
+    width:25px;
+    text-align: center;
+    //background-color: blue;
+    right:1rem;
+    color:red;
+    cursor: pointer;
 }
