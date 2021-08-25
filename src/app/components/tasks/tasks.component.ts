@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Task} from '../../Task';
+import { Task } from '../../Task';
 import { TaskService } from '../../services/task.service';
 
 @Component({
@@ -25,5 +25,11 @@ export class TasksComponent implements OnInit {
       .subscribe(
         () => (this.tasks = this.tasks.filter((t) => t.id !== task.id))
       );
+  }
+
+  toggleReminder(task: Task) {
+    task.reminder = !task.reminder;
+    console.log(`Task ID: ${task.id} reminder set ${task.reminder}`);
+    this.taskService.updateTaskReminder(task).subscribe()
   }
 }
