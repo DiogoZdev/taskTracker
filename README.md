@@ -15,8 +15,14 @@ This project was initialized during a transition from ReactJS to Angular.
 
 Node installed.
 
-'ng serve -o' Start and launch the local server for Angular App.
+```
+ng serve -o`
+``` 
+Start and launch the local server for Angular App.
 
-'npm run server' Start the server responsible for handling the list (db.json) in our backend.
+```
+npm run server
+```
+ Start the server responsible for handling the list (db.json) in our backend.
 
 
