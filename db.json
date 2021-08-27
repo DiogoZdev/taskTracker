@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Ask her on a date",
       "day": "Aug 21",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
