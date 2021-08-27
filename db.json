@@ -25,10 +25,16 @@
       "reminder": false
     },
     {
-      "id": 5,
-      "text": "go to Netherlands",
-      "day": "Aug 23",
-      "reminder": true
+      "text": "Code forever",
+      "day": "Sep 1",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Do your best",
+      "day": "Today",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
