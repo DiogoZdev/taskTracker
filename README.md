@@ -7,7 +7,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Angular 11
 - TypeScript
 
-## Description
+## Information
 
 This project was initialized during a transition from ReactJS to Angular.
-It aims to be a task tracker/manager.
+
+## Prerequisites
+
+Node installed.
+
+'ng serve -o' Start and launch the local server for Angular App.
+
+'npm run server' Start the server responsible for handling the list (db.json) in our backend.
+
+
