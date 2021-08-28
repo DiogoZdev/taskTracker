@@ -1,40 +1,22 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Walk the dog",
-      "day": "Aug 20",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Buy ham",
-      "day": "Aug 21",
-      "reminder": false
-    },
-    {
-      "id": 3,
-      "text": "Ask her on a date",
-      "day": "Aug 21",
-      "reminder": true
-    },
-    {
-      "id": 4,
-      "text": "Code project",
-      "day": "Aug 22",
-      "reminder": false
-    },
-    {
-      "text": "Code forever",
-      "day": "Sep 1",
-      "reminder": false,
-      "id": 6
-    },
-    {
-      "text": "Do your best",
-      "day": "Today",
+      "text": "Visit grandma",
+      "day": "November 15th",
       "reminder": true,
-      "id": 7
+      "id": 1
+    },
+    {
+      "text": "Buy a pumpkin",
+      "day": "November 23rd",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Discover the truth about the universe",
+      "day": "December 10th",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
